@@ -1,0 +1,43 @@
+.head img{
+    width: 100%;
+    filter: brightness(67%);
+}
+
+.head div{
+    position: absolute;
+}
+
+.start {
+    margin-top: 40px;
+    box-sizing: border-box;
+    max-width: 900px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.start h2{
+    text-align: center;
+}
+
+.start p{
+    padding: 0px 20px;
+}
+
+input, label, button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+button {
+    margin: auto;
+}
+
+.bottom {
+    display: block;
+    position: relative;
+    margin: auto;
+}

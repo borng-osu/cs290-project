@@ -1,0 +1,50 @@
+.head img{
+    width: 100%;
+    filter: brightness(75%);
+}
+
+.head div{
+    position: absolute;
+}
+
+.start {
+    box-sizing: border-box;
+    max-width: 900px;
+    height: 400px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.start img{
+    display: block;
+    width: 25%;
+    margin: auto;
+}
+
+.start h2{
+    text-align: center;
+}
+
+.scroll {
+    margin: auto;
+    max-width: 450px;
+    min-width: 150px;
+    height: 200px;
+    overflow: scroll;
+    background-color: white;
+    border: 1px #CC170A solid;
+}
+
+.scroll p{
+    padding: 5px 5px;
+}
+
+section a{
+    text-decoration: none;
+    color: #CC170A;
+}
+
+section a:hover{
+    color: navy;
+}

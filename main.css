@@ -1,0 +1,84 @@
+.carousel, .latest{
+    box-sizing: border-box;
+    max-width: 900px;
+    height: 500px;
+    position: relative;
+    margin: auto;
+}
+
+.pics{
+    display: none;
+}
+
+img{
+    vertical-align: middle;
+    width: 100%;
+}
+
+.controls, .caption{
+    box-sizing: border-box;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.caption{
+    text-align: center;
+}
+
+.caption p{
+    line-height: 0px;
+    font-size: 18px;
+    color: #cc170A;
+}
+
+.controls{
+    margin-top: -25px;
+}
+
+.controls i{
+    display: inline-block;
+}
+
+#left{
+    float: left;
+    color: navy;
+    cursor: pointer;
+}
+
+#right{
+    float: right;
+    color: navy;
+    cursor: pointer;
+}
+
+#left:hover, #right:hover {
+    color:#cc170A;
+}
+
+.name img{
+    filter: brightness(67%);
+}
+
+.name img:hover{
+    filter: brightness(90%);
+}
+
+
+.last {
+    margin-bottom: 100px;
+}
+
+.label h3{
+    color: #f5f5f5;
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.label{
+    position: relative;
+    margin-top: -275px;
+    text-align: center;
+    z-index: 1;
+}

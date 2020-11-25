@@ -1,0 +1,19 @@
+ul{
+    list-style: none;
+}
+
+.head img{
+    position: relative;
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.head h3{
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.head img:hover{
+    filter: brightness(80%);
+}

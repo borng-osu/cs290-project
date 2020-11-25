@@ -1,0 +1,43 @@
+.head img{
+    width: 100%;
+    filter: brightness(90%);
+}
+
+.head div{
+    position: absolute;
+}
+
+.start {
+    margin-top: 40px;
+    box-sizing: border-box;
+    max-width: 900px;
+    height: 150px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.start img{
+    display: block;
+    width: 25%;
+    margin: auto;
+}
+
+.start h2{
+    text-align: center;
+}
+
+.start p{
+    padding: 0px 20px;
+}
+
+.video{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.video iframe{
+    display: block;
+    margin: auto;
+}

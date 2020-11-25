@@ -1,0 +1,115 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #DEDEDE;
+}
+
+.menu{
+    position: fixed;
+    background-color: #CC170A;
+    top: 0;
+    left: 0;
+    width:100%;
+    border-bottom: 1px solid #f5f5f5;
+    z-index: 2;
+}
+
+.dropper{
+    width: 300px;
+    padding: 20px 24px;
+    cursor: pointer;
+    border-right: #f5f5f5 1px solid;
+    display: inline-block;
+}
+
+.title{
+    font-weight: 500;
+    color: #f5f5f5;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.dropper span{
+    color: #f5f5f5;
+    font-size: 24px;
+    float: right;
+}
+
+.dropper:hover {
+    background-color: #f0f0f0;
+    border-right: 1px solid navy;
+}
+
+.dropper:hover .title{
+    color:navy;
+}
+
+.dropper:hover span{
+    color:navy;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: #f0f0f0;
+    min-width: 348px;
+    margin-top: 20px;
+    margin-left: -25px;
+}
+
+.dropdown a{
+    color: navy;
+    padding: 12px 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-top: 1px solid navy;
+}
+
+.dropdown a:hover{
+    background-color: #CC170A;
+    color: #f5f5f5;
+}
+
+.dropper:hover .dropdown{
+    display:block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    margin-left: 348px;
+    margin-top: -44px;
+    background-color: #f0f0f0;
+    min-width: 250px;
+}
+
+.subdrop:hover .submenu {
+    display: block;
+}
+
+section{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.head {
+    box-sizing: border-box;
+    max-width: 900px;
+    height: 500px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head div{
+    color: #f5f5f5;
+    margin-top: -250px;
+    margin-left: 50px;
+}
+
+.head div h3{
+    font-size: 30px;
+    line-height: 10px;
+}
